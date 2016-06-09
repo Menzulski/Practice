@@ -18,7 +18,6 @@ void getCPUInfo()
 	if(bytesRead == 0 /*|| bytesRead == sizeof(buffer)*/){
 		printf("UPS\n");
 		printf("%lu bytes\n",bytesRead);
-		return 0;
 	}
 
 	buffer[bytesRead] = '\0';
